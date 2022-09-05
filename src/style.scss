@@ -4,3 +4,19 @@
 .container {
     @include container;
 }
+
+.panel {
+    @include panel;
+}
+
+input {
+    @include input;
+}
+
+#addTodoPanel {
+    @include addTodoPanel;
+}
+
+#plusButton {
+    @include plusButton;
+}
