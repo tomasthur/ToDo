@@ -53,6 +53,15 @@
     margin-top: 5vh;
 }
 
+@mixin card {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 1vh;
+}
+
 @mixin plusButton {
     position: absolute;
     right: 0%;

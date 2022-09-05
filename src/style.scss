@@ -2,25 +2,35 @@
 @import "mixins";
 
 .container {
-    @include container;
+  @include container;
 }
 
 .panel {
-    @include panel;
+  @include panel;
 }
 
 input {
-    @include input;
+  @include input;
 }
 
 #addTodoPanel {
-    @include addTodoPanel;
+  @include addTodoPanel;
 }
 
 #plusButton {
-    @include plusButton;
+  @include plusButton;
 }
 
 .todosContainer {
-    @include todosContainer;
+  @include todosContainer;
+}
+
+.card {
+  @include card;
+}
+
+.green {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: $done-color;
 }

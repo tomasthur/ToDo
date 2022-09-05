@@ -97,4 +97,19 @@ input {
   overflow-y: scroll;
   margin-top: 5vh;
 }
+
+.card {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 1vh;
+}
+
+.green {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: #2FC8A3;
+}
 /*# sourceMappingURL=style.css.map */
