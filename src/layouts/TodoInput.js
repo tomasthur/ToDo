@@ -1,9 +1,9 @@
 import React from "react";
 
-const TodoInput = ({ todo, setTodo }) => {
+const TodoInput = ({ todo, setTodo, todos, setTodos }) => {
   const makeTodo = (e) => {
     e.preventDefault();
-    console.log(todo);
+    setTodos([...todos, {text: todo, completed: false, id: Math.random()* 1000}]);
     setTodo('');
   };
 

@@ -37,9 +37,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
     position: relative;
-    width: 40%;
+    width: 51%;
+}
+
+@mixin todosContainer {
+    width: 51%;
+    height: auto;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    margin-top: 5vh;
 }
 
 @mixin plusButton {
